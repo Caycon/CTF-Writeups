@@ -1,4 +1,7 @@
-#
+# Phân tích
+- Chall sử dụng chuẩn PKCS#1 v1.5 với RSA có `e` nhỏ `e = 3`. Ta sẽ `signature forgery.
+- Ta sử dụng Bleichenbacher's attack.
+- Ở đây mình có 1 chall rất giống chall này [BBGun06](https://www.hackthebox.com/blog/business-ctf-2022-write-up-bbgun06). 
 
 ```python
 from Crypto.Util.number import bytes_to_long, long_to_bytes
