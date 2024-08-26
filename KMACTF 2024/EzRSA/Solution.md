@@ -3,7 +3,7 @@
 - Ta sử dụng Bleichenbacher's attack.
 - Ở đây mình có 1 chall rất giống chall này [BBGun06](https://www.hackthebox.com/blog/business-ctf-2022-write-up-bbgun06). 
 - Form ta cần tạo để pass verify là: `00 01 ff 00 ASN1 HASH .....`
-- Ta có thể thay `ASH1` và `HASH` thành từng hash tương ứng khi server random. Tuy nhiên mình biếng nên mình brute tới khi ra trường hợp mình cần:))))
+- Ta có thể thay `ASH1` và `HASH` thành từng hash tương ứng khi server random. Tuy nhiên mình biếng nên mình brute force tới khi ra trường hợp mình cần:))))
 ```python
 from Crypto.Util.number import bytes_to_long, long_to_bytes
 from hashlib import sha1
