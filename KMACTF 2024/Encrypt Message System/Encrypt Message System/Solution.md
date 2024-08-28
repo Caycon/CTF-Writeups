@@ -13,7 +13,7 @@ def polynomial_evaluation(coefficients, x):
 ```
 - Giải phương trình $f(x)= \sum_{0}^{15}{cof_i*x^i}$ ta có được x để khi gửi 2 ct thì nhận được enc có cùng nonce.
 - Khi đó ta dùng nonce reuse attack.
-- Dưới đây là code mình tham khảo từ anh Quốc:(.
+- Dưới đây là code mình. Mình có tham khảo từ anh Quốc khá nhìu:(.
 
 ```Python
 from pwn import *
