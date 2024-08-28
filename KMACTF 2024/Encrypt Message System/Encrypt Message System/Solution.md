@@ -11,4 +11,4 @@ def polynomial_evaluation(coefficients, x):
 		at_x = at_x % p
 	return at_x
 ```
-- Giải phương trình $f(x)= \sigma{cof_i*x^i}_{0}^{15}$
+- Giải phương trình $f(x)= \sum{cof_i*x^i}_{0}^{15}$
