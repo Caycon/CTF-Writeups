@@ -1,6 +1,6 @@
 
-- Chall này mình có tìm được hướng làm trong lúc thi tuy nhiên mình không biết nó cụ thể là phương pháp nào:)
-- Sau thi thì mình có tham khảo wu thì biết đây là `nonce reuse attack`.
+- Chall này mình có tìm được hướng làm trong lúc thi tuy nhiên mình quên mất nó cụ thể là phương pháp nào.
+- Sau thi thì mình mới nhớ ra đó có làm trong Cryptohack rùi (là `nonce reuse attack`).
 - Đầu tiên ta cần tính toán và gửi 2 ct vào sao cho `nouce` của chúng giống nhau để làm được điều này thì ta phải tính toán dựa trên y đã cho.
 
 ```python
