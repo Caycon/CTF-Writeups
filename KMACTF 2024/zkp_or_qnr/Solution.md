@@ -3,7 +3,7 @@
 - Nếu `bit= 0` thì $w= r^2\ mod\ x$, còn nếu `bit= 1` thì $w= r^2y\ mod\ x$.
 - Thì để decrypt mình có hướng là ta sẽ xét `w` xem liệu với $w\ mod\ x$ có tồn tại $r$ sao cho $r^2= w\ mod\ x$ hay không. Nếu tồn tại thì ta trả về 0 ngược lại ta trả về 1.
 ```python
- from Crypto.Util.number import long_to_bytes
+from Crypto.Util.number import long_to_bytes
 import os
 from ast import literal_eval
 
